@@ -1,0 +1,7 @@
+embedding_size: 128
+gamma1: 0.5 # 2->0.5
+t: 1.8
+train_strategy: MF_init
+K: 4
+gamma2: 0.1
+top_k: 2
