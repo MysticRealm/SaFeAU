@@ -12,7 +12,7 @@ We integrate our method SaFeAU into the [RecBole](https://recbole.io/) framework
 
 ```shell
 # Gowalla
-python run_recbole.py --model=SaFeAU --dataset=gowalla --gamma1=10 --gamma2=0.1 --K=4 --top_k=2 --t=3 --encoder=MF --train_batch_size=1024
+python run_recbole.py --model=SaFeAU --dataset=Gowalla --gamma1=10 --gamma2=0.1 --K=4 --top_k=2 --t=3 --encoder=MF --train_batch_size=1024
 
 # Toys-and-Games
 python run_recbole.py --model=SaFeAU --dataset=Toys-and-Games --gamma1=0.5 --gamma2=0.1 --K=4 --top_k=2 --t=0.8 --encoder=MF --train_batch_size=1024
