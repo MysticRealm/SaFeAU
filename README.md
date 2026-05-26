@@ -20,4 +20,3 @@ python run_recbole.py --model=SaFeAU --dataset=Toys-and-Games --gamma1=0.5 --gam
 # Beauty
 python run_recbole.py --model=SaFeAU --dataset=Beauty --gamma1=0.5 --gamma2=0.1 --K=4 --top_k=2 --t=1.8 --encoder=MF --train_batch_size=256
 
-'''
